@@ -1,2 +1,6 @@
-jupyter/.*
-/jupyter/secureconnect/*.zip
+./jupyter/.cache
+./jupyter/.ipynb_checkpoints
+./jupyter/.ipython
+./jupyter/.ivy2
+./jupyter/.local
+./jupyter/secureconnect/*.zip
