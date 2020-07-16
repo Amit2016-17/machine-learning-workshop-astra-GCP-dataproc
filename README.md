@@ -13,9 +13,9 @@ A Hands-on Lab delivered by DataStax' Developer Advocates team. Want to learn th
 
 ### Requirements
 
-- git
-- docker
-- docker-compose
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [docker](https://www.docker.com/products/docker-desktop)
+- [docker-compose](https://docs.docker.com/compose/install/) ( _included with Docker Desktop for Mac and Windows installs_ )
 
 ### Installation
 
@@ -27,6 +27,8 @@ docker-compose up -d
 
 ### Usage
 
+- Download the [Secure Connect Bundle](https://docs.datastax.com/en/astra/aws/doc/dscloud/astra/dscloudObtainingCredentials.html) for your Astra Database
+- Move the Secure Connect Bundle to [./jupyter/secureconnect](./jupyter/secureconnect)  
 - For the Cassandra labs, access DataStaxs Studio: http://localhost:9091
 - For the Spark labs, access Jupyter Notebooks:   http://localhost:8888 password: `datastax`
 
