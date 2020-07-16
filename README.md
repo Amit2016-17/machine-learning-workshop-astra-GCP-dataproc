@@ -1,5 +1,6 @@
 # Machine Learning with Apache Spark & Cassandra
-## Cassandra + Spark = ❤️ 
+## Spark + Cassandra = :heart:
+## Spark + Astra = :fire: :rocket: :stars:
 
 A Hands-on Lab delivered by DataStax' Developer Advocates team. Want to learn the awesomness of distributed databases and computational systems? Jump in, watch the slides and do the practicals steps!
 
@@ -10,7 +11,7 @@ A Hands-on Lab delivered by DataStax' Developer Advocates team. Want to learn th
 
 ## Labs
 
-### Reqs
+### Requirements
 
 - git
 - docker
@@ -19,8 +20,8 @@ A Hands-on Lab delivered by DataStax' Developer Advocates team. Want to learn th
 ### Installation
 
 ```
-git clone https://github.com/HadesArchitect/CaSpark.git
-cd CaSpark
+git clone https://github.com/riptano/machine-learning-workshop-astra-online.git
+cd machine-learning-workshop-astra-online
 docker-compose up -d
 ```
 
