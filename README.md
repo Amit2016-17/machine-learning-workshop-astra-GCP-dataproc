@@ -1,6 +1,7 @@
+![DataStax Logo](./jupyter/images/DS-logo-2020-White-Blue.png)
 # Machine Learning with Apache Spark & Cassandra
 ## Spark + Cassandra = :heart:
-## Spark + Astra = :fire: :rocket: :stars:
+## Spark + DataStax Astra = :fire: :rocket: :stars:
 
 #### A hands-on workshop delivered by DataStax's Developer Advocates team. 
 Want to learn about the awesomness of distributed databases and computational systems?
