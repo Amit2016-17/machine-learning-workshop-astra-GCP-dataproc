@@ -8,8 +8,6 @@ Want to learn about the awesomness of distributed databases and computational sy
 Want to get hands-on with DataStax's Cassandra-as-a-Service offering (_for free!_) and use popular Machine Learning tools and algorithms?
 Join in and follow along with this workshop!
 
-![DataStax Astra Logo](./jupyter/images/DS_Astra-logo-White-Blue.png)
-
 ## Requirements
 
 * [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -32,7 +30,7 @@ docker-compose up -d
 - For the Cassandra lab, access [DataStax Developer Studio on Astra](https://docs.datastax.com/en/astra/aws/doc/dscloud/astra/dscloudConnectStudio.html)
 - For the Spark labs, access Jupyter Notebooks: http://localhost:8888 password: `datastax`
 
-You may need to use some custom IP instead of localhost if you use docker-for-mac, docker-for-windows or similar installation.
+You may need to use some custom IP instead of `localhost` if you use docker-for-mac, docker-for-windows or similar installation.
 
 ## Known Issues
 
