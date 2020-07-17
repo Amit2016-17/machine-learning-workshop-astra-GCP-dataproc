@@ -10,8 +10,6 @@ Join in and follow along with this workshop!
 
 ![DataStax Astra Logo](./jupyter/images/DS_Astra-logo-White-Blue.png)
 
-<div style="text-align:center"><img src="./jupyter/images/DS_Astra-logo-White-Blue.png" alt="DataStax Astra Logo"></div>
-
 ## Requirements
 
 * [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
