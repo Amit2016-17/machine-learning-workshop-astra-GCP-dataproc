@@ -16,24 +16,26 @@ Join in and follow along with this workshop!
 * [GCP dataproc](https://console.cloud.google.com/dataproc/clusters)
 * [GCS bucket](https://console.cloud.google.com/storage)
 
-## Installation
+## Installation / Setup
 
 ```
 git clone https://github.com/ajgoade/machine-learning-workshop-astra-GCP-dataproc.git
-cd machine-learning-workshop-astra-online
-gcloud sync <your
+cd machine-learning-workshop-astra-GCP-dataproc
+  - Download the [Secure Connect Bundle](https://docs.datastax.com/en/astra/aws/doc/dscloud/astra/dscloudObtainingCredentials.html) for your Astra Database
+  - Move the Secure Connect Bundle to [./jupyter/secureconnect](./jupyter/secureconnect) 
+  - Modify ./jupyter/gcp/astra_connect_package.sh Update your Secure Connect Bundle
+  - Modify ./jupyter/gcp/dataproc_creation_script.txt Update your Google Cloud specific information. 
+gsutil cp -r ./jupyter gs://andygoade-dev/notebooks/jupyter
 
 ```
 
-## Setup
-
-- Download the [Secure Connect Bundle](https://docs.datastax.com/en/astra/aws/doc/dscloud/astra/dscloudObtainingCredentials.html) for your Astra Database
-- Move the Secure Connect Bundle to [./jupyter/secureconnect](./jupyter/secureconnect)  
+## Labs
+ 
 - For the Cassandra lab, access [DataStax Developer Studio on Astra](https://docs.datastax.com/en/astra/aws/doc/dscloud/astra/dscloudConnectStudio.html)
-- For the Spark labs, access Jupyter Notebooks: http://localhost:8888 password: `datastax`
+- For the Spark labs, access Jupyter Notebooks: Click on your [cluster in GCP dataproc](https://console.cloud.google.com/dataproc/clusters), select Web Interfaces, then scroll to find Jupyter ![GCP Jupyter Location](./jupyter/images/jupyter_location.png)
 
 You may need to use some custom IP instead of `localhost` if you use docker-for-mac, docker-for-windows or similar installation.
 
 ## Known Issues
 
-In some cases executing the exercises may lead to memory issues, especially on weaker or non-Linux machines due to docker limitations on memory. If you have any issues with exercises after the first few, try to clean up and start again `docker-compose kill && docker-compose down && docker-compose up -d`. You may need to repeat steps of the notebook you were working on.
+
