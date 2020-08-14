@@ -27,7 +27,7 @@ cd machine-learning-workshop-astra-GCP-dataproc
   - Move the Secure Connect Bundle to [./jupyter/secureconnect](./jupyter/secureconnect) 
   - Modify ./jupyter/gcp/astra_connect_package.sh Update your Secure Connect Bundle
   - Modify ./jupyter/gcp/dataproc_creation_script.txt Update your Google Cloud specific information. 
-gsutil cp -r ./jupyter gs://andygoade-dev/notebooks/jupyter
+gsutil cp -r ./jupyter gs://<YOUR_BUCKET>/notebooks/jupyter
 
 ```
 
