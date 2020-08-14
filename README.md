@@ -1,5 +1,5 @@
 ![DataStax Logo](./jupyter/images/DS-logo-2020-White-Blue.png)
-# Machine Learning with Apache Spark & Cassandra
+# Machine Learning with Apache Spark & Cassandra (on Google Dataproc)
 ## Spark + Cassandra = :heart:
 ## Spark + DataStax Astra = :fire: :rocket: :stars:
 
