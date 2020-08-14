@@ -32,9 +32,7 @@ gsutil cp -r ./jupyter gs://andygoade-dev/notebooks/jupyter
 ## Labs
  
 - For the Cassandra lab, access [DataStax Developer Studio on Astra](https://docs.datastax.com/en/astra/aws/doc/dscloud/astra/dscloudConnectStudio.html)
-- For the Spark labs, access Jupyter Notebooks: Click on your [cluster in GCP dataproc](https://console.cloud.google.com/dataproc/clusters), select Web Interfaces, then scroll to find Jupyter ![GCP Jupyter Location](./jupyter/images/jupyter_location.png)
-
-You may need to use some custom IP instead of `localhost` if you use docker-for-mac, docker-for-windows or similar installation.
+- For the Spark labs, access Jupyter Notebooks: Click on your [cluster in GCP dataproc](https://console.cloud.google.com/dataproc/clusters), (1) select Web Interfaces, (2) then scroll to find Jupyter ![GCP Jupyter Location](./jupyter/images/jupyter_location.png)
 
 ## Known Issues
 
