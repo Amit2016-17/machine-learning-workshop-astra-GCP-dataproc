@@ -12,15 +12,17 @@ Join in and follow along with this workshop!
 
 * [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [DataStax Astra Registration](http://astra.datastax.com) (_sign up with the email you used to register for the workshop!_)
-* [Docker](https://www.docker.com/products/docker-desktop)
-* [Docker-compose](https://docs.docker.com/compose/install/) (_included with Docker Desktop for Mac and Windows installs_)
+* [gcloud SDK](https://cloud.google.com/sdk/docs#install_the_latest_cloud_tools_version_cloudsdk_current_version)
+* [GCP dataproc](https://console.cloud.google.com/dataproc/clusters)
+* [GCS bucket](https://console.cloud.google.com/storage)
 
 ## Installation
 
 ```
-git clone https://github.com/riptano/machine-learning-workshop-astra-online.git
+git clone https://github.com/ajgoade/machine-learning-workshop-astra-GCP-dataproc.git
 cd machine-learning-workshop-astra-online
-docker-compose up -d
+gcloud sync <your
+
 ```
 
 ## Setup
