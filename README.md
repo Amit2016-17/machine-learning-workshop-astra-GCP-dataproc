@@ -8,6 +8,8 @@ Want to learn about the awesomness of distributed databases and computational sy
 Want to get hands-on with DataStax's Cassandra-as-a-Service offering (_for free!_) and use popular Machine Learning tools and algorithms?
 Join in and follow along with this workshop!
 
+This project is an adaptation of [Machine Learning with Apache Spark & Cassandra](https://www.datastax.com/resources/webinar/introduction-machine-learning-apache-cassandratm-and-apache-sparktm).  Original code can be found [here](https://github.com/DataStax-Academy/machine-learning-workshop-online).
+
 ## Requirements
 
 * [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
