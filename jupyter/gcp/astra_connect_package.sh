@@ -1,1 +1,1 @@
-gsutil cp gs://<YOUR_BUCKET>/notebooks/jupyter/secureconnect/YOURsecure-connect-keyspace.zip /tmp/YOURsecure-connect-keyspace.zip
+gsutil cp gs://andygoade-dev/notebooks/jupyter/secureconnect/secure-connect-dataproc.zip /tmp/secure-connect-dataproc.zip

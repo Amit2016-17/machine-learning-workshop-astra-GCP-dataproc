@@ -4,3 +4,4 @@
 ./jupyter/.ivy2
 ./jupyter/.local
 ./jupyter/secureconnect/*.zip
+./jupyter/gcp/astra_connect_package.sh
