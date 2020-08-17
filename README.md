@@ -22,12 +22,16 @@ This project is an adaptation of [Machine Learning with Apache Spark & Cassandra
 
 ```
 git clone https://github.com/ajgoade/machine-learning-workshop-astra-GCP-dataproc.git
+
 cd machine-learning-workshop-astra-GCP-dataproc
   - Download the [Secure Connect Bundle](https://docs.datastax.com/en/astra/aws/doc/dscloud/astra/dscloudObtainingCredentials.html) for your Astra Database
   - Move the Secure Connect Bundle to [./jupyter/secureconnect](./jupyter/secureconnect) 
-  - Modify ./jupyter/gcp/astra_connect_package.sh Update your Secure Connect Bundle
-  - Modify ./jupyter/gcp/dataproc_creation_script.txt Update your Google Cloud specific information. 
+  - Modify ./jupyter/gcp/EXAMPLE-astra_connect_package.sh Update your Secure Connect Bundle (rename to astra-connect-package.sh)
+  - Modify ./jupyter/gcp/EXAMPLE-dataproc_creation_script.txt Update your Google Cloud specific information.(Use this step if you are using command line tools to deploy)
+  
 gsutil cp -r ./jupyter gs://<YOUR_BUCKET>/notebooks/jupyter
+
+Deploy using gcloud command (from laptop or Active Cloud Shell) or manually create using Google Cloud console.
 
 ```
 
