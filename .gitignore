@@ -5,3 +5,5 @@
 ./jupyter/.local
 ./jupyter/secureconnect/*.zip
 ./jupyter/gcp/astra_connect_package.sh
+*.zip
+astra_connect_package.sh
